@@ -3,9 +3,8 @@ project(Infi_Advent_of_Code)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(dag01
-        dag01/dag01.cpp
-        dag01/dag01.h)
+add_executable(infi2024
+        infi2024/infi2024.cpp)
 
 # Function to detect the compiler and apply warning flags
 function(add_compile_warnings target)
@@ -52,5 +51,5 @@ function(add_compile_warnings target)
     endif()
 endfunction()
 
-# Add the warning flags to the `dag01` target
-add_compile_warnings(dag01)
+# Add the warning flags to the `infi2024` target
+add_compile_warnings(infi2024)
